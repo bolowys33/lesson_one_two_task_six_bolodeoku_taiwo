@@ -50,3 +50,54 @@ table {
 
 
 /* Write your css below here */
+
+.container{
+	width: 100vw;
+	height: 100vh;
+}
+
+form{
+	width: 80%;
+	margin: auto;
+}
+
+form input , select{
+	cursor: pointer;
+}
+
+h1, h2{
+	text-align: center;
+	color: #007bff;
+}
+
+.reg{
+	width: 100%;
+	margin-top: 20px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.text input{
+	margin:10px auto;
+	cursor: auto;
+
+}
+
+.radio input{
+	margin-top: 20px;
+}
+
+select{
+	margin-top: 20px;
+}
+
+
+input[type="button"] {
+	background-color: #007bff;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+  }
+  

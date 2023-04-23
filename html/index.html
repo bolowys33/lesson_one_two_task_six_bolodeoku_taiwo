@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <div class="container">
+            <form action="#">
+                <h2>Registration Form</h2>
+                <div class="reg text">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="email" placeholder="Email Address">
+                    <input type="tel" placeholder="Phone Number">
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Enter password">
+                    <input type="password" placeholder="Confirm password">
+                </div>
+                
+                <div class="reg radio">
+                    <h2>Choose Gender</h2>
+                    <label for="male">
+                        <input type="radio" name="gender" value="male" id="male">
+                        Male
+                    </label>  
+                    <label for="female">
+                        <input type="radio" name="gender" value="female" id="female">
+                        Female
+                    </label> 
+                    <label for="other">
+                        <input type="radio" name="gender" value="other" id="other">
+                        Other
+                    </label>
+                </div>
+                
+                <div class="reg select">
+                    <h2>Select Country</h2>
+                    <select>
+                        <option>Select Country</option>
+                        <option>USA</option>
+                        <option>Canada</option>
+                        <option>Mexico</option>
+                        <option>United Kingdom</option>
+                        <option>Germany</option>
+                        <option>France</option>
+                        <option>Italy</option>
+                        <option>Spain</option>
+                        <option>Nigeria</option>
+                        <option>China</option>
+                    </select>
+                </div>
+                <div class="reg check">
+                    <label for="terms">
+                        <input type="checkbox" name="terms" id="terms">
+                        Get notified for news and updates
+                    </label>
+                </div>
+                <div class="reg button">
+                    <input type="button" value="Sign Up">  
+                </div>
+            </form> 
+        </div>
+    </body>
+</html>
